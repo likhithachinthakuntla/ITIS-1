@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LL21"
+    android:background="@android:color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:text="INTELLIGENT TOURIST INFORMATION SYSTEM      "
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:id="@+id/tv21"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SIGNUP"
+        android:layout_marginLeft="75dp"
+        android:textSize="50dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/tv22"
+        android:textColor="@android:color/background_light"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        android:id="@+id/LL22"
+        android:orientation="horizontal"
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:text="USERNAME:"
+            android:id="@+id/tv23"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:id="@+id/et21"
+            android:background="@android:color/background_light"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/LL23">
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:text="PASSWORD:"
+            android:id="@+id/tv24"
+            android:inputType="textPassword"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:id="@+id/et22"
+            android:background="@android:color/background_light"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:id="@+id/LL24">
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:text="CONFIRM PASSWORD:"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dp"
+            android:id="@+id/tv25"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:background="@android:color/background_light"
+            android:inputType="textPassword"
+            android:id="@+id/et23"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/LL25">
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:text="PHONE:"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dp"
+            android:id="@+id/tv26"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:background="@android:color/background_light"
+            android:id="@+id/et24"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="SUBMIT"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/buttonsubmit"/>
+
+
+</LinearLayout>
